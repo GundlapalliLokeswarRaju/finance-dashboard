@@ -95,9 +95,9 @@ else:
 
 db.close()
 
-print("\n✅ Seed complete! You can now start the server with:")
+print("\n Seed complete! You can now start the server with:")
 print("   uvicorn app.main:app --reload")
-print("\n📋 Test credentials:")
+print("\n Test credentials:")
 print("   admin@finance.com   / admin123")
 print("   analyst@finance.com / analyst123")
 print("   viewer@finance.com  / viewer123")
